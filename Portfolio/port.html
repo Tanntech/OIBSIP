@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <style>
+        /* Your custom CSS here */
+        :root{
+            --primary:Cyan;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: var(--bgDark); clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);">
+        <div class="container">
+            <nav class="flex items-center justify-between">
+                <div class="left flex justify-right">
+                    <div class="logo"> <img src="woman.png" width="50px" alt="logo"> </div>
+                    <div> 
+                        <a href="#">Home</a> 
+                        <a href="#">About</a> 
+                        <a href="#">Services</a> 
+                        <a href="#">Blog</a>
+                        <a href="#">More</a> 
+                    </div>
+                    <div class="right"> <button class="btn btn-primary" style="background-color: var(--primary);">Contact</button></div>
+                </div>
+            </nav>
+
+            <div class="hero flex items-center justify-between">
+                <div class="left flex-1 justify-center">
+                    <img src="img1.jpg" alt="Hero Image" style="width: 400px; height: 600px; margin: 78px;">
+                </div>
+                <div class="right flex-1" style="color: var(--white); margin-top: -7rem;">
+                    <h6 style="font-size: 1.6rem; color: var(--primary); margin-bottom: 0.5em;">CODEWITHRANDOM</h6>
+                    <h1 style="font-size: 4rem; font-weight: 100; line-height: 1.2; margin-bottom: 2rem;">
+                        I'm a Web<br /><span style="color: var(--primary);">Developer</span>
+                    </h1>
+                    <p style="line-height: 1.9; margin-bottom: 2rem;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                        adipisci distinctio obcaecati aliquid, quia tempora quis optio
+                        repudiandae officia earum? Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.
+                    </p>
+                    <div>
+                        <button class="btn btn-secondary" style="background-color: var(--secondary);">DOWNLOAD CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" style="padding: 6rem;">
+        <div class="container flex items-center">
+            <div class="left flex-1 justify-right">
+                <img src="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs-tinysrgb&dpr=1&w=500" height="400px" alt="profile pic" />
+            </div>
+            <div class="right flex-1" style="color: var(--white);">
+                <h1 style="margin-bottom: 1rem; font-size: 1.6rem; font-weight: 600;">About <span style="color: var(--primary);">Me</span></h1>
+                <h3 style="font-size: 1rem; margin-bottom: 1rem; font-weight: 600;">Hello! I'm </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    adipisci distinctio obcaecati aliquid, quia tempora quis optio
+                    repudiandae officia earum? Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit.
+                </p>
+                <div class="socials">
+                    <a href="#"><img  src="https://images.pexels.com" width="40px" alt="Social Icon"></a>
+                    <a href="#"><img  src="https://images.pexels.com" width="40px" alt="Social Icon"></a>
+                    <a href="#"><img  src="https://images.pexels.com" width="40px" alt="Social Icon"></a>
+                    <a href="#"><img  src="https://images.pexels.com" width="40px" alt="Social Icon"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" style="padding: 6rem;">
+        <div class="card-grid" style="display: flex;">
+            <div class="card" style="background: var(--white); padding: 3rem 2rem; position: relative; text-align: center; transition: all 0.2s ease; width: calc(33.33% - 4rem); margin: 0 2rem;">
+                <img src="path_to_image1.jpg" alt="Service 1">
+                <h2 style="font-weight: 600; font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--primary);">Service 1</h2>
+                <p style="font-family: 'Lato', sans-serif; color: var(--secondary); line-height: 1.6;">Description of service 1.</p>
+            </div>
+            <div class="card" style="background: var(--white); padding: 3rem 2rem; position: relative; text-align: center; transition: all 0.2s ease; width: calc(33.33% - 4rem); margin: 0 2rem;">
+                <img src="path_to_image2.jpg" alt="Service 2">
+                <h2 style="font-weight: 600; font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--primary);">Service 2</h2>
+                <p style="font-family: 'Lato', sans-serif; color: var(--secondary); line-height: 1.6;">Description of service 2.</p>
+            </div>
+            <div class="card" style="background: var(--white); padding: 3rem 2rem; position: relative; text-align: center; transition: all 0.2s ease; width: calc(33.33% - 4rem); margin: 0 2rem;">
+                <img src="path_to_image3.jpg" alt="Service 3">
+                <h2 style="font-weight: 600; font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--primary);">Service 3</h2>
+                <p style="font-family: 'Lato', sans-serif; color: var(--secondary); line-height: 1.6;">Description of service 3.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

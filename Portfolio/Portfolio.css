@@ -1,0 +1,252 @@
+:root {
+    --bgDark:#121738;
+    --white:white;
+    --primary:pink;
+    --secondary:green;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* -webkit-font-smoothing: antialiased; */
+}
+
+/* header */
+
+header{
+    background-color: var(--bgDark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
+    
+    header nav .left a {
+        color: var(--white);
+        text-decoration: none;
+        margin-right: 2rem;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+    }
+    
+    header nav .left a:hover{
+    color: var(--primary);
+    }
+    
+/* container */
+
+.container {
+    max-width: 1152px;
+    padding: 0 ;   
+    }
+
+section {
+ padding: 6rem;    
+    }
+        
+.container .justify-between .justify-right{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+button.btn.btn-primary { 
+    width: 80px;
+    height: 30px;
+}
+
+button.btn.btn-secondary a{
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 700;
+}
+
+.container .justify-between .justify-right .logo img{
+    text-align: center;
+    align-self: center;
+}
+
+/* hero */
+
+.hero {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    }
+    
+    
+    .hero .left img {
+    width: 400px;
+    height: 600px;
+    margin: 78px;
+    }
+    
+    .hero .right {
+        color: var(--white);
+        margin-top: 8rem;
+    }
+    
+/* about */
+
+
+.about .flex.items-centre{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .about h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    }
+    
+    
+    section .about h1 span {
+    color: var(--primary);
+    }
+
+    .right.flex-1{
+       
+        text-align: left;
+        margin: 30px;
+    }
+
+
+    
+    .hero .right h1 span {
+        color: var(--primary);
+        } 
+
+
+
+
+ .hero .right h6 {
+font-size: 1.6rem;
+color: var(--primary);
+margin-bottom: 0.5em;
+}
+
+
+.hero .right h1 {
+font-size: 4rem;
+font-weight: 100;
+line-height: 1.2;
+margin-bottom: 2rem;
+}
+
+
+
+
+
+.hero .right p {
+line-height: 1.9;
+margin-bottom: 2rem;
+} 
+
+section.services .card-grid{
+    display: flex;
+}
+
+section.services .card-grid .card {
+    background: var(--white);
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease;
+    width:350px; /* Adjust spacing and width as needed */
+    height: 350px;
+    margin: 0 2rem;
+    border: solid #121738 1px;
+    display: block;
+}
+
+section .services .card-grid .card img {
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    height: 350px;
+}
+
+section .services .card-grid .card h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+section .services .card-grid .card p {
+    font-family: "Lato", sans-serif;
+    color: var(--seconday);
+    line-height: 1.6;
+}
+
+section .services .card-grid .card:hover {
+    background: var(--primary);
+}
+
+section .services .card-grid .card:hover h2,
+section .services .card-grid .card:hover p {
+    color: var(--white);
+}
+
+
+
+/* 
+
+
+section .about h1 {
+margin-bottom: 1rem;
+font-size: 1.6rem;
+font-weight: 600;
+}
+
+
+section .about h1 span {
+color: var(--primary);
+}
+
+
+section.about h3 {
+font-size: 1rem;
+margin-bottom: 1rem;
+font-weight: 600;
+} */
+
+
+
+
+
+/* .hero .right h6 {
+font-size: 1.6rem;
+color: var(--primary);
+margin-bottom: 0.5rem;
+}
+
+
+.hero .right h1 {
+font-size: 4rem;
+font-weight: 100;
+line-height: 1.2;
+margin-bottom: 2rem;
+}
+
+
+.hero .right h1 span {
+color: var(--primary);
+}
+
+
+.hero .right p {
+line-height: 1.9;
+margin-bottom: 2rem;
+
+} */
+
+
+/* section {
+padding: 6rem;
+
+} */
+
+
+
+
