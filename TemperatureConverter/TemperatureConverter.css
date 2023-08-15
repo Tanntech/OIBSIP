@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#head{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #4169E1;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-card {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(65, 105, 225, 0.8); Neon box shadow */
+    text-align: center;
+}
+
+.big-card:hover{
+    box-shadow: 0 0 20px 8px rgba(65, 105, 225, 0.8);
+
+}
+
+.input-card {
+    margin: 20px 0;
+}
+
+#Conversion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-card h2 {
+    margin-bottom: 10px;
+}
+
+.input-card input,
+.input-card select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.result-card {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.result-card h2 {
+    margin-bottom: 10px;
+}
+
+#convertBtn{
+    color: white;
+    background-color: #4169E1;
+    width: 90px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color:black;
+    border: 3px;
+}
+
+#convertBtn:hover{
+ background-color:#09267b;
+ cursor: pointer;
+}
